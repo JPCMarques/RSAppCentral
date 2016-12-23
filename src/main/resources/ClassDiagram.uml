@@ -2,12 +2,41 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes />
+  <nodes>
+    <node x="516.0" y="330.0">general.Item</node>
+    <node x="0.0" y="627.0">io.net.ProcessorUnit</node>
+    <node x="0.0" y="195.0">pvm.CharmDrop</node>
+    <node x="147.5" y="-58.0">pvm.Drop</node>
+    <node x="255.0" y="627.0">io.net.BatchProcessor</node>
+    <node x="0.0" y="330.0">pvm.Monster</node>
+    <node x="328.0" y="330.0">pvm.CharmType</node>
+    <node x="307.0" y="195.0">pvm.ItemDrop</node>
+  </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <edges>
+    <edge source="pvm.ItemDrop" target="pvm.Drop">
+      <point x="0.0" y="-45.0" />
+      <point x="402.5" y="170.0" />
+      <point x="323.75" y="170.0" />
+      <point x="50.75" y="72.5" />
+    </edge>
+    <edge source="pvm.CharmDrop" target="pvm.Drop">
+      <point x="0.0" y="-45.0" />
+      <point x="143.5" y="170.0" />
+      <point x="222.25" y="170.0" />
+      <point x="-50.75" y="72.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="350.5" y="345.5" />
   <SelectedNodes />
-  <Categories />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
 </Diagram>
 
